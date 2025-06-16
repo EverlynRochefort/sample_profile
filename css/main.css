@@ -1,0 +1,27 @@
+@font-face { src: url(../fonts/SpecialGothic-Regular.ttf); }
+
+.container {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    font-family: 'Special Gothic', sans-serif;
+    background-color: #222222;
+    color: white;
+}
+
+li>a, 
+h1>a, 
+h2>a{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+li>a {
+    text-decoration-thickness: 2px;
+}
+
+li>a:hover, 
+h1>a:hover, 
+h2>a:hover {
+    text-decoration-color: yellow;
+}
