@@ -3,9 +3,11 @@
 }
 
 :root {
-    --red: rgb(255,0,0);
-    --yellow: rgb(255,255,0);
-    --bg-dotted: rgb(220,20,60); 
+  --red: rgb(255, 0, 0);
+  --yellow: rgb(255, 255, 0);
+  --bg-color: rgb(34, 34, 34);
+  --bg-dotted: rgb(220, 20, 60, 0.4);
+  --text-color: rgb(250, 240, 230);
 }
 
 .main_container {
@@ -13,14 +15,14 @@
   place-content: center;
   overflow: hidden;
   font-family: "Special Gothic", sans-serif;
-  background-color: #222222;
+  background-color: var(--bg-color);
   min-height: 100vh;
-  color: #faf0e6;
+  color: var(--text-color);
   font-size: 1rem;
   width: 100vw;
   min-height: 100vh;
   background-image: radial-gradient(circle at 1px 1px, var(--bg-dotted) 1.3px, transparent 0);
-  background-size: 25px 25px;
+  background-size: 40px 40px;
 }
 
 li > a,
@@ -39,3 +41,5 @@ h1 > a:hover,
 h2 > a:hover {
   text-decoration-color: var(--yellow);
 }
+
+
