@@ -1,5 +1,11 @@
 @font-face {
+  font-family: Special Gothic;
   src: url(../fonts/SpecialGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bitcount Grid Double;
+  src: url(../fonts/BitcountGridDouble-Regular.ttf)
 }
 
 :root {
@@ -10,7 +16,7 @@
   --text-color: rgb(250, 240, 230);
 }
 
-.main_container {
+.main-container {
   display: grid;
   place-content: center;
   overflow: hidden;
@@ -23,6 +29,19 @@
   min-height: 100vh;
   background-image: radial-gradient(circle at 1px 1px, var(--bg-dotted) 1.3px, transparent 0);
   background-size: 40px 40px;
+}
+
+h1 {
+  font-family: "Bitcount Grid Double";
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Bitcount Grid Double";
+  font-weight: 370;
+  word-spacing: -7px;
+  letter-spacing: 1px;
 }
 
 li > a,
